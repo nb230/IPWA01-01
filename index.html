@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="de">
+    <head>
+        <title>Homepage WebAppStartup</title>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2/dist/css/bootstrap.min.css">
+        </head>
+
     <header>
         <nav>
-            <ul>
-                <li>
+            <ul class="text-end">
+                <li class="d-inline">
                     <form>
                         <input type="text" name="suche" placeholder="Suche">
                     </form>
                 </li>
-                <li><a
+                <li class="d-inline"><a
                     href="https://www.instagram.com/WebAppStartup">Instagram</a></li>
-                <li><a
+                <li class="d-inline"><a
                     href="https://www.facebook.com/WebAppStartup">Facebook</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
+                <li class="d-inline"><a
+                    href="contact.html">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <div class="row">
+        <div class="col-lg–4 col-sm–12">
         <nav>
             <ul>
                 <li><a href="home.html">Homepage</a></li>
@@ -28,6 +37,7 @@
             </ul>
         </nav>
 
+        <div id="content">
         <section>
             <h1>Willkommen auf der Homepage von WebAppStartup</h1>
             <p>
@@ -57,14 +67,16 @@
                 </tr>
             </tbody>
         </table>
-
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="privacy.html">Datenschutz</a></li>
-                    <li><a href="imprint.html">Impressum</a></li>
-                </ul>
-            </nav>
-        </footer>
+        </div>
     </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="privacy.html">Datenschutz</a></li>
+                <li><a href="imprint.html">Impressum</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
 </html>
